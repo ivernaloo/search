@@ -1,0 +1,19 @@
+{
+  "name": "elasticsearch",
+  "version": "1.0.0",
+  "description": "用angluarjs + elasticsearch实现一个搜索功能",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivernaloo/search.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivernaloo/search/issues"
+  },
+  "homepage": "https://github.com/ivernaloo/search#readme"
+}
