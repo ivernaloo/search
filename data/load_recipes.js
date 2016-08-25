@@ -1,7 +1,7 @@
 var fs = require('fs');
 var es = require('elasticsearch');
 var client = new es.Client({
-    host: 'http://192.168.99.100:32769/'
+    host: 'http://192.168.99.'
 });
 
 fs.readFile('recipeitems-latest.json', {encoding: 'utf-8'}, function(err, data) {
