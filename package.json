@@ -1,5 +1,5 @@
 {
-  "name": "elasticsearch",
+  "name": "search",
   "version": "1.0.0",
   "description": "用angluarjs + elasticsearch实现一个搜索功能",
   "main": "index.js",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ivernaloo/search/issues"
   },
-  "homepage": "https://github.com/ivernaloo/search#readme"
+  "homepage": "https://github.com/ivernaloo/search#readme",
+  "dependencies": {
+    "elasticsearch": "^11.0.1"
+  }
 }
