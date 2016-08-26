@@ -14,7 +14,8 @@ window.MyOpenRecipes = angular.module('myOpenRecipes', ['elasticsearch'],
 MyOpenRecipes.factory('recipeService',
     ['$q', 'esFactory', '$location', function($q, elasticsearch, $location){
         var client = elasticsearch({
-            host: $location.host() + ":9200"
+            // host: "http://192.168.99.100:32769"
+            host: "http://121.42.156.210:32771"
         });
 
         /**
@@ -31,9 +32,7 @@ MyOpenRecipes.factory('recipeService',
             };
 
             client.search({
-                "index": 'recipes',
-                "type": 'recipe',
-                "body": {
+                 "body": {
                     "size": 10,
                     "from": (offset || 0) * 10,
                     "query": query
